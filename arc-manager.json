@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "b75a8f72-373a-4a4d-bb03-7b9f8ad84ba0": "{\"id\":\"b75a8f72-373a-4a4d-bb03-7b9f8ad84ba0\",\"host\":\"104.131.33.45\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"stop\",\"restart\",\"cluster-restart\",\"license-push\"],\"protocol\":\"http\",\"created\":1439604042561,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"PraxTrack\",\"version\":null,\"port\":3001},\"processes\":{\"pids\":[{\"parentPid\":1237,\"pid\":1238,\"workerId\":1,\"listeningSockets\":[{\"addressType\":4,\"address\":\"0.0.0.0\",\"port\":3001}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-08-15T02:02:11.935Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":1,\"serviceInstanceId\":1},{\"parentPid\":834,\"pid\":1237,\"workerId\":0,\"listeningSockets\":[],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-08-15T02:02:10.820Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":2,\"serviceInstanceId\":1}]},\"$$hashKey\":\"object:90\",\"isHostProblem\":true}"
+    },
+    "LoadBalancer": {}
+  }
+}
